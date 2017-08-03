@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Property24</string>
+    <string name="incorecct_password">Please check your password or email</string>
+</resources>

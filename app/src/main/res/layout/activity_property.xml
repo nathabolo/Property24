@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/activity_login"
+                    android:background="#c5cae9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/propertylogo" />
+
+            <!-- Login Button -->
+
+            <TextView
+                android:id="@+id/txt_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Property24!!!"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textSize="30dp"
+                android:textColor="@color/colorAccent"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic"
+                android:text="Select login type below!"
+                android:textAllCaps="true"/>
+
+            <TextView
+            android:id="@+id/company_register"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Register as a company"/>
+
+            <TextView
+                android:id="@+id/customer_register"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="Register as a customer"/>
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="Login"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</ScrollView>

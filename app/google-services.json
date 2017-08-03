@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "103850693419",
+    "firebase_url": "https://property24-d9b55.firebaseio.com",
+    "project_id": "property24-d9b55",
+    "storage_bucket": "property24-d9b55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103850693419:android:5f6902616fb08af5",
+        "android_client_info": {
+          "package_name": "za.co.reversidesoftwaresolutions.property24"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103850693419-71ep4e6knvr4gqdefif74hue3v40u11k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "za.co.reversidesoftwaresolutions.property24",
+            "certificate_hash": "17e51596ca50b47b005e562ca04845f6e4942391"
+          }
+        },
+        {
+          "client_id": "103850693419-712o9f1dtbcjm92eg6633f74fms67m7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAtBpDd62sYdsvGsWmgBIXEgvrB13Xj_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103850693419-712o9f1dtbcjm92eg6633f74fms67m7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
